@@ -64,7 +64,14 @@ const Nav = () => {
     <>
       <Navbar>
         <h1>
-          <NavLink id='logo' to='/'>
+          <NavLink
+            to='/'
+            style={{
+              color: "#23d997",
+              fontWeight: "bold",
+              textTransform: "uppercase",
+            }}
+          >
             TradfiBro
           </NavLink>
         </h1>
@@ -84,7 +91,14 @@ const Nav = () => {
       </Navbar>
       <NavbarMobile>
         <h1>
-          <NavLink id='logo' to='/'>
+          <NavLink
+            to='/'
+            style={{
+              color: "#23d997",
+              fontWeight: "bold",
+              textTransform: "uppercase",
+            }}
+          >
             TradfiBro
           </NavLink>
         </h1>

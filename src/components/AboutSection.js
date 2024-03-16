@@ -6,7 +6,6 @@ import styled from "styled-components";
 import { photoAnimation, titleAnimation } from "../animation";
 import home1 from "../img/home1.jpg";
 import { Description, Hide, ImageContainer, Layout } from "../styles";
-import Wave from "./Wave";
 
 const Header = styled(motion.div)`
   @media only screen and (min-width: 540px) and (max-width: 820px) {
@@ -93,7 +92,6 @@ const AboutSection = () => {
           alt='guy with a camera'
         />
       </ImageContainer>
-      <Wave />
     </Layout>
   );
 };
