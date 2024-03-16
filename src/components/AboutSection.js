@@ -6,6 +6,7 @@ import styled from "styled-components";
 import { photoAnimation, titleAnimation } from "../animation";
 import home1 from "../img/home1.jpg";
 import { Description, Hide, ImageContainer, Layout } from "../styles";
+import Footer from "./Footer";
 
 const Header = styled(motion.div)`
   @media only screen and (min-width: 540px) and (max-width: 820px) {
@@ -80,6 +81,8 @@ const AboutSection = () => {
               just a dream; it's a tangible reality! (unlike these ‘Crypto’
               scams) <br />
             </motion.h3>
+            <br /> <br />
+            <Footer />
           </Hide>
         </Header>
       </Description>

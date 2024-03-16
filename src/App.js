@@ -6,7 +6,6 @@ import Nav from "./components/Nav";
 import AboutUs from "./pages/AboutUs";
 // Animation
 import { AnimatePresence } from "framer-motion";
-import Footer from "./components/Footer";
 
 function App() {
   const location = useLocation();
@@ -19,7 +18,6 @@ function App() {
         <Switch location={location} key={location.pathname}>
           <Route path='/' exact>
             <AboutUs />
-            <Footer />
           </Route>
         </Switch>
       </AnimatePresence>
