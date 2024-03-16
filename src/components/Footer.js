@@ -1,4 +1,8 @@
-import { faTelegram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedin,
+  faTelegram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 import {
   faChartBar,
   faEnvelope,
@@ -52,6 +56,14 @@ const Footer = () => {
             className='item6'
           >
             <FontAwesomeIcon icon={faExchangeAlt} />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/tradfibro'
+            target='_blank'
+            rel='noreferrer'
+            className='item7'
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
       </div>
