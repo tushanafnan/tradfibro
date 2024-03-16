@@ -40,45 +40,47 @@ const AboutSection = () => {
           className='title'
         >
           <Hide>
-            <motion.h2 variants={titleAnimation}>
-              Hi, I’m Bob Analyst CFA CPA ACA NGMI HFSP.
-            </motion.h2>
+            <motion.h3 variants={titleAnimation}>
+              Hi, I’m Bob Analyst CFA CPA ACA NGMI HFSP. <br />
+            </motion.h3>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnimation}>
-              I want to help you master your finances so you can finally stop
-              stressing and become financially free!
-            </motion.h2>
+            <motion.h3 variants={titleAnimation}>
+              <br /> I want to help you master your finances so you can finally
+              stop stressing and become financially free! <br />
+            </motion.h3>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnimation}>
-              I also want to help in Elizabeth Whoren’s noble fight against the
-              illegal industry of ‘cryptocurrency’.
-            </motion.h2>
+            <motion.h3 variants={titleAnimation}>
+              <br /> I also want to help in Elizabeth Whoren’s noble fight
+              against the illegal industry of ‘cryptocurrency’. <br />
+            </motion.h3>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnimation}>
-              I have amassed a small fortune of over $100,000 over the last
-              fifteen years by diligently investing. Impressive right?
-            </motion.h2>
+            <motion.h3 variants={titleAnimation}>
+              <br /> I have amassed a small fortune of over $100,000 over the
+              last fifteen years by diligently investing. Impressive right?{" "}
+              <br />
+            </motion.h3>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnimation}>
-              I have achieved a consistent growth level of 6% annually and I can
-              show you how you can achieve this too!
-            </motion.h2>
+            <motion.h3 variants={titleAnimation}>
+              <br /> I have achieved a consistent growth level of 6% annually
+              and I can show you how you can achieve this too! <br />
+            </motion.h3>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnimation}>
-              My secret sauce? Dividend-yielding stocks and a knack of picking
-              the greatest low-risk bonds.
-            </motion.h2>
+            <motion.h3 variants={titleAnimation}>
+              <br /> My secret sauce? Dividend-yielding stocks and a knack of
+              picking the greatest low-risk bonds. <br />
+            </motion.h3>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnimation}>
-              With my help, early retirement at the ripe age of 55 is not just a
-              dream; it's a tangible reality! (unlike these ‘Crypto’ scams)
-            </motion.h2>
+            <motion.h3 variants={titleAnimation}>
+              <br /> With my help, early retirement at the ripe age of 55 is not
+              just a dream; it's a tangible reality! (unlike these ‘Crypto’
+              scams) <br />
+            </motion.h3>
           </Hide>
         </Header>
       </Description>
