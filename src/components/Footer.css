@@ -32,7 +32,10 @@
 
 .item2,
 .item3,
-.item4 {
+.item4,
+.item5,
+.item6,
+.item7 {
   font-size: 15px;
   padding: 0.5rem;
   background-color: #292a30;
@@ -44,7 +47,10 @@
 
 .item2:hover,
 .item3:hover,
-.item4:hover {
+.item4:hover,
+.item5:hover,
+.item6:hover,
+.item7:hover {
   background-color: #000000;
   transition: 0.4s;
 }
